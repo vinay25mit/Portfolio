@@ -1,0 +1,72 @@
+.Achivement-heading{
+    margin: 0;
+    color: #555555;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+
+}
+.Ach-container{
+    margin: 0;
+    background:#cac3b8;
+    text-align: center;
+    align-items: center;
+}
+.Achivement-container{
+   
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    /* text-align: center; */
+    /* align-items: center; */
+   
+
+}
+.Achivement-card{
+    background: #839a9b;
+    padding: 1.2rem 1rem;
+    box-shadow: 10px 10px 10px -5px #333;
+}
+.img-cont{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.Achivement-card img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.pro-details p{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    color: white;
+    text-align: justify;
+
+}
+.pro-btns{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+.pro-btns .btn{
+     padding: 0.5rem 1rem;
+}
+@media screen  and (max-width:980px){
+    .Achivement-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen  and (max-width:740px){
+    .Achivement-container{
+         max-width: 90%;
+         max-width: auto;
+         margin: auto;
+         grid-template-columns: 1fr;
+    }
+}
+

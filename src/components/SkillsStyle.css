@@ -1,0 +1,27 @@
+.timeline {
+  width: 800px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 20px;
+}
+
+.timeline-event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timeline-indicator {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.timeline-connector {
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+  margin: 0 20px;
+}

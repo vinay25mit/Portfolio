@@ -1,0 +1,47 @@
+.hero-img{
+    width: 100%;
+    height: 60vh;
+     /* background: #863A6F; */
+    position: relative;
+    
+}
+
+.hero-img::before {
+    content:"";
+    background:url("./Assest/lo.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    object-fit: fill;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+.img-sec{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+    color: #28272a;
+}
+.hero-img p{
+     font-size: 1.4rem;
+     text-align: center;
+     color: #839a9b;
+}
+
+@media screen  and (max-width:640px){
+    .hero-img h1{
+        font-size: 2rem;
+    }
+}

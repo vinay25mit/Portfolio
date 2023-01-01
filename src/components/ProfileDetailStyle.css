@@ -1,0 +1,17 @@
+
+.container{
+   
+   
+    position: relative;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.profile_container{
+    display: inline-block;
+    margin: 20px;
+    width: 210px;
+    height: auto;
+    text-align: center;
+}
