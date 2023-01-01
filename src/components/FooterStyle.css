@@ -1,10 +1,13 @@
 .footer{
      width: 100%;
+     color: #2e5041;
      /* padding: 6rem 0; */
      padding-top: 6rem;
      background-color: #c28364;
      /* border: 10px solid red; */
+     
 }
+
 .left{
     /* border: 2px solid black; */
     display: flex;
@@ -32,7 +35,7 @@ ol{
     /* border: 2px solid blue; */
     display: block;
     margin-block-start: 1em;
-    margin-block-end: 1em;
+    /* margin-block-end: 1em; */
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: center;
