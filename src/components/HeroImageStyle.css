@@ -10,12 +10,20 @@
     background-position: center;
     object-fit: fill;
 }
+.data{
+     margin: 0;
+     padding: 0;
+     height: 100px;
+}
 .avtar{
+    padding-top: 30px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
  
 }
+
+
 .mask::after{
      content: "";
      width: 100%;
@@ -56,6 +64,9 @@
     }
     .hero .content p{
          font-size: 1.4rem;
+    }
+    .data{
+       width: 95%;
     }
 
 }

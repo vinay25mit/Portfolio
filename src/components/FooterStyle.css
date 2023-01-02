@@ -53,8 +53,53 @@ ol{
 }
 
 
-@media screen and (max-widht:640px) {
-    .title-touch{
-        font-size: 1.5rem;
+@media screen and (max-width:640px) {
+    .footer{
+        /* background-color: aliceblue; */
+        margin: 0;
     }
+    .footer-container{
+        margin: 0;
+    }
+    .left{
+        margin: 0;
+        /* border: 2px solid black; */
+        display: block;
+        /* flex-flow: column nowrap; */
+        /* flex-direction: row; */
+    }
+    .address{
+        margin: 0;
+        width: 100%;
+        height:100%;
+        /* border: 3px solid rebeccapurple; */
+    
+    }
+    ol{
+        list-style-type: none;
+    }
+    .map{
+        margin: 0;
+        width: 100%;
+        height: 400px;
+        padding: 10px;
+        border-radius: 2%;
+    
+    }
+    .right{
+        box-sizing: border-box;
+        /* border: 2px solid blue; */
+        display: block;
+        margin-block-start: 1em;
+        /* margin-block-end: 1em; */
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        padding:20px ;
+    
+    }
+    
+    
+    
+
 }

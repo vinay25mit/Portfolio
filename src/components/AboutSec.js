@@ -8,7 +8,7 @@ function AboutSec() {
       <h1 className='name'>ABOUT US</h1>
       <div className='detail-container'>
         <div className='about-sec'>
-          <img className='about-img' src='https://i.imgur.com/jGIcpN2.jpg' alt='profile-pic'></img>
+          <img className='logoimg' src='https://i.imgur.com/tIW34tf.png' alt='profile-pic'></img>
         </div>
         <div className='intro-sec'>
         <p>UMANG, one of the largest inter college sports fest awaited by sporting communities across the country.

@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
+import HeroImage from '../components/HeroImage'
 
 import  HeroImg  from '../components/HeroImg'
 import Navbar from '../components/Navbar'
@@ -9,7 +10,8 @@ const Project = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <HeroImg heading="PROJECTS." text="Some of my Recent Work" />
+      <HeroImage/>
+      {/* <HeroImg heading="PROJECTS." text="Some of my Recent Work" /> */}
       <Work/>
       <Footer/>
     </div>

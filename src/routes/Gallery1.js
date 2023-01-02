@@ -3,17 +3,17 @@ import Footer from '../components/Footer'
 import HeroImg from '../components/HeroImg'
 import HeroImage from "../components/HeroImage"
 import Navbar from '../components/Navbar'
-import Achiv from '../components/Achiv'
-const OurTeam= () => {
+import Gallery from '../components/Gallery'
+const Gallery1= () => {
   return (
     <div>
       <Navbar/>
       <HeroImage/>
-      {/* <HeroImg heading="Achivements" text="Some of My Achivements"/> */}
-      <Achiv/>
+      {/* <HeroImg heading="Galleryements" text="Some of My Galleryements"/> */}
+      <Gallery/>
       <Footer/>
     </div>
   )
 }
 
-export default OurTeam
+export default Gallery1

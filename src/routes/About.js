@@ -10,10 +10,11 @@ const About = () => {
   return (
     <div>
       <Navbar/> 
-      <HeroImg heading="About" text="I am a Competitive Programmer" />
+      <HeroImage/>
+      {/* <HeroImg heading="About" text="I am a Competitive Programmer" /> */}
       {/* <HeroImage/> */}
       <AboutSec/>
-      <Education/>
+      {/* <Education/> */}
       <Footer/>
     </div>
   )

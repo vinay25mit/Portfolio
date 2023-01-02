@@ -32,16 +32,16 @@ const Navbar = () => {
                 <Link to="/Project">EVENTS</Link>
             </li>
             <li >
-                <Link to="#">RULEBOOK</Link>
+                <a href="https://drive.google.com/file/d/1AW2-Z94nFIWRnvIzfn1anPF6kh-cQzp4/view?usp=share_link">RULEBOOK</a>
             </li>
             <li >
                 <Link to="/Gallery">GALLERY</Link>
             </li>
             <li >
-                <Link to="/OurTeam">OUR TEAM</Link>
+                <Link to="/OurTeam">TEAM</Link>
             </li>
             <li >
-                <Link to="/Contact">Contact</Link>
+                <Link to="/Contact">CONTACT</Link>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>

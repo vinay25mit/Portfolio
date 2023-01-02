@@ -1,77 +1,63 @@
-.Achivement-heading{
+.Achivement-heading1{
     margin: 0;
     color: #555555;
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    /* padding: 4rem 0 2rem 0; */
 
 }
-.Ach-container{
+.Ach-container1{
     margin: 0;
     background:#cac3b8;
     text-align: center;
     align-items: center;
 }
-.Achivement-container{
+.Achivement-container1{
    
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 40px;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
     /* text-align: center; */
     /* align-items: center; */
    
 
 }
-.Achivement-card{
+.Achivement-card1{
     background: #839a9b;
-    padding: 1.2rem 1rem;
-    /* display: flex; */
+    /* padding: 1.2rem 1rem; */
     box-shadow: 10px 10px 10px -5px #333;
 }
-.img-cont{
+.img-cont1{
     display: block;
     align-items: center;
     text-align: center;
     /* border-radius: 20%; */
     /* border: 3px solid red; */
-    height: 250px;
+    width: 100%;
+    height: 450px;
 }
-.Achivement-card img{
+.img-cont2{
+    width: auto;
+    height: fit-content;
+}
+.Achivement-card1 img{
     width: 100%;
     height: 100%;
+    /* background-color: red; */
     /* border-radius: 50%; */
     /* border: 2px solid blue; */
 }
 
-.pro-details p{
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-    color: white;
-    text-align: center;
-
-}
-.pro-btns{
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem 0;
-}
-.pro-btns .btn{
-     padding: 0.5rem 1rem;
-}
-.name{
-    justify-content: center;
-}
 @media screen  and (max-width:980px){
-    .Achivement-container{
-        grid-template-columns: repeat(3,1fr);
+    .Achivement-container1{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
 @media screen  and (max-width:740px){
-    .Achivement-container{
+    .Achivement-container1{
          max-width: 90%;
          max-width: auto;
          margin: auto;

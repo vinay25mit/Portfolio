@@ -14,7 +14,7 @@ const Home = () => {
       <Navbar/>
       <HeroImage/>
       <AboutSec/>
-      <Education/>
+      {/* <Education/> */}
       <Work/>
       <Achiv/>
       

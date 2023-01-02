@@ -7,7 +7,7 @@ import AchivData from './AchivData'
 const Achiv = () => {
     return (
         <div className="Ach-container">
-            <h1 className="Achivement-heading">Achivement</h1>
+            <h1 className="Achivement-heading">OUR TEAM</h1>
             <div className="Achivement-container">
                 {
                     AchivData.map((val,ind)=>{
