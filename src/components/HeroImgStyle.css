@@ -8,7 +8,7 @@
 
 .hero-img::before {
     content:"";
-    background:url("./Assest/lo.jpg");
+    background:url("./Assest/footba.jpg");
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -18,7 +18,7 @@
     object-fit: fill;
     top:0;
     left: 0;
-    z-index: -1;
+    z-index: -10;
 }
 .img-sec{
     width: 100%;

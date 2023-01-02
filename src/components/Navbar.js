@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className={color?"header header-bg":"header"}>
         <Link className='logo_div' to="/">
-            <img className='logo' src="https://i.imgur.com/5XyHgkG.jpg"/>
+            <img className='logo' src="https://i.imgur.com/tIW34tf.png" alt='logo'/>
         </Link>
         <ul className={click ?"nav-menu active" :"nav-menu fill"}>
             <li >
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link to="/About">ABOUT</Link>
             </li>
             <li >
-                <Link to="/Projects">EVENTS</Link>
+                <Link to="/Project">EVENTS</Link>
             </li>
             <li >
                 <Link to="#">RULEBOOK</Link>

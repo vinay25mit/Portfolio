@@ -3,7 +3,6 @@ import Footer from '../components/Footer'
 import HeroImg from '../components/HeroImg'
 import Navbar from '../components/Navbar'
 import Achiv from '../components/Achiv'
-import ImgSlider from '../components/ImgSlider'
 const OurTeam= () => {
   return (
     <div>

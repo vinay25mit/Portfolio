@@ -12,25 +12,27 @@
 .logo{
     /* border: 2px solid red; */
     margin-left: 3rem;
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 100%;
 }
 .logo_div{
-    width: 519px;
+    width: 219px;
     
 }
-.header logo{
+/* .header logo{
     margin-left: 50px;
     padding: 10px;
     border: 2px solid red;
-    /* background-color: #863A6F; */
-}
+    background-color: #863A6F;
+} */
 .header-bg{
      background-color: #9e5345;
-     border-radius: 10px;
+     /* border-radius: 10px; */
+     
     transition: 0.5s;
 }
 .nav-menu{
+    padding-top: 1.5rem;
     display: flex;
    
 }
