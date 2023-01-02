@@ -7,7 +7,7 @@ const AchivCard = (props) => {
         <img  src={props.imgsrc} alt='Achivement' />
         </div>
         <div className='pro-details'>
-            <p className='name'>{props.text}</p>
+           <center> <p className='name'>{props.text}</p></center>
         </div>
     </div>
     )

@@ -22,7 +22,12 @@
     border-radius: 50%;
  
 }
+/* .countdown{
+    height: 40px;
+    width: auto;
+    color: white;
 
+} */
 
 .mask::after{
      content: "";
@@ -39,6 +44,7 @@
      width: 100%;
 }
 .hero .content{
+    margin-top:50px ;
     position: absolute;
     transform: translate(-50%,-50%);
     top:50%;
@@ -68,5 +74,10 @@
     .data{
        width: 95%;
     }
+    /* .countdown{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    } */
 
 }

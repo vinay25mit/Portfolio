@@ -1,18 +1,18 @@
 import React from 'react'
 
-import "./AchivCardStyle.css"
-import AchivCard from './AchivCard'
-import AchivData from './AchivData'
+import "./DevStyle.css"
+import DevCard from './DevCard'
+import DevData from './DevData'
 
-const Achiv = () => {
+const Dev = () => {
     return (
-        <div className="Ach-container">
-            <h1 className="Achivement-heading">TEAM</h1>
-            <div className="Achivement-container">
+        <div className="Devi-container">
+            <h1 className="Dev-heading">Dev Team</h1>
+            <div className="Dev-container">
                 {
-                    AchivData.map((val,ind)=>{
+                    DevData.map((val,ind)=>{
                         return(
-                            <AchivCard
+                            <DevCard
                             key={ind}
                             imgsrc={val.imgsrc}
                             text={val.text}
@@ -26,5 +26,5 @@ const Achiv = () => {
     )
 }
 
-export default Achiv
+export default Dev
 

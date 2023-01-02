@@ -1,5 +1,7 @@
 .Achivement-heading1{
     margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
     color: #555555;
     text-align: center;
     /* padding: 4rem 0 2rem 0; */
@@ -10,6 +12,7 @@
     background:#cac3b8;
     text-align: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 .Achivement-container1{
    
@@ -63,5 +66,6 @@
          margin: auto;
          grid-template-columns: 1fr;
     }
+   
 }
 

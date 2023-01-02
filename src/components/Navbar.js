@@ -2,6 +2,7 @@ import './NavbarStyles.css'
 import React ,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import {FaBars,FaTimes} from "react-icons/fa"
+// import Footer from '../components/Footer'
 <link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'></link>
 const Navbar = () => {
     const [click,setClick]=useState(false);  
@@ -40,9 +41,9 @@ const Navbar = () => {
             <li >
                 <Link to="/OurTeam">TEAM</Link>
             </li>
-            <li >
-                <Link to="/Contact">CONTACT</Link>
-            </li>
+            {/* <li >
+                <Link to="">CONTACT</Link>
+            </li> */}
         </ul>
         <div className='hamburger' onClick={handleClick}>
             {click? <FaTimes size={20} style={{color:"#fff"}}/>: 

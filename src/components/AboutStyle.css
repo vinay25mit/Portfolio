@@ -34,7 +34,7 @@
     margin-left: 60px;
     padding: 20px;
     margin-bottom: auto;
-    width: 421.6px;
+    width: 200%;
     height: 421.6px;
 }
 .name{
@@ -46,9 +46,10 @@
     font-weight: 700;
 }
 .about-sec img{
-    height: 100%;
-    width: 400px;
-    background-color: #9E5345;
+    margin-top: 2.8rem;
+    height: 80%;
+    width: 100%;
+    background-color: #839a9b;
     border-radius: 10%;
 }
 .intro-sec{
