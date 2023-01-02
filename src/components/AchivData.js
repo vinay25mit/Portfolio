@@ -38,7 +38,7 @@ const AchivData=[
     }
     ,
     {
-        text:"SANDEEP KUMAR SINGH",
+        text:"SANDEEP KR SINGH",
         imgsrc:"https://i.imgur.com/6Y3ykO0.jpg",
         // imgsrc:"https://repository-images.githubusercontent.com/180398813/a57fa200-b4bb-11e9-9a12-a53353dce24a",
         // text:"Highest rating of 570 at Atcoder",
@@ -54,7 +54,7 @@ const AchivData=[
     }
     ,
     {
-        text:"SONU KUMAR SINGH",
+        text:"SONU KR SINGH",
         imgsrc:"https://i.imgur.com/eWtagc6.jpg",
         // imgsrc:"https://i0.wp.com/applied-science.tiu.edu.iq/information-technology/wp-content/uploads/2019/02/hashcodeBanner-1.png",
         // text:"Secured 4484 Rank in Round 1 Google Code Jam 2022",
@@ -64,7 +64,7 @@ const AchivData=[
     {
         text:"AMAN RAJ",
         // imgsrc:"https://i.imgur.com/eWtagc6.jpg",
-        imgsrc:"https://i.imgur.com/2W4w81V.jpg",
+        imgsrc:"https://i.imgur.com/7ytwprM.jpg",
         // imgsrc:"https://i0.wp.com/applied-science.tiu.edu.iq/information-technology/wp-content/uploads/2019/02/hashcodeBanner-1.png",
         // text:"Secured 4484 Rank in Round 1 Google Code Jam 2022",
         view:"url.com"

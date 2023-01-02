@@ -29,7 +29,7 @@ const HeroImage = () => {
           className="avtar"
         ></img> */}
         <p></p>
-        <h1> UMANG 2022</h1>
+        <h1> UMANG' 2022</h1>
         <img className="data" src={"https://i.imgur.com/fnIUJxK.png"} alt='imghairebaba'></img>
         <h4>MIT,MUZAFFARPUR</h4>
         {/* <h2>REGISTER NOW</h2> */}
@@ -39,6 +39,7 @@ const HeroImage = () => {
         <Link to="/Project" className="btn">
           EVENTS
         </Link>
+        <h4>Registration Closed in</h4>
         <h1 ><Time/></h1>
         {/* <a className="btn" href="https://drive.google.com/file/d/1Wiuct2nbAYB2ywommXIY7l9sjOl9F7UD/view?usp=share_link">RULES</a> */}
         {/* <Link to="/Contact" className="btn btn-light">Contact</Link> */}

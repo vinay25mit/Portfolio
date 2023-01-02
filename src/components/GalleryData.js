@@ -1,6 +1,12 @@
 
 const AchivData=[
-
+   {
+       imgsrc:"https://i.imgur.com/St5Fe1Z.jpg",
+   }
+   ,
+    {
+        imgsrc:"https://i.imgur.com/WE121Ev.jpg",
+    },
     {
         imgsrc:'https://i.imgur.com/D3OytWl.jpg',
     },

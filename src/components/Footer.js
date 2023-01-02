@@ -83,6 +83,7 @@ const Footer = () => {
               style={{ color: "#2e5041", marginRight: "2rem" }}
             />
           </a>
+    
         </div>
       </div>
     </div>
