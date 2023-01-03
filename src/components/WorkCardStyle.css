@@ -75,8 +75,12 @@
      bottom: 0;
 
     
-}
 
+}
+.event-btn:hover{
+    background:#ffff;
+    color: #2e5041;
+}
 @media screen  and (max-width:940px){
     .project-container{
        
