@@ -1,5 +1,5 @@
 
-const AchivData=[
+const TeamData=[
     // {
     //     imgsrc:"https://www.credit-suisse.com/pwp/hr/en/codingchallenge/static/media/gcc_white2.769e66af.png",
     //     // text:"Secured 166 rank in Global Coding Challenge 2022 by Credit Suisse.",
@@ -101,4 +101,4 @@ const AchivData=[
  
 
 ];
-export default AchivData;
+export default TeamData;

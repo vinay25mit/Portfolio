@@ -1,10 +1,10 @@
 import React from 'react'
-import './AchivCardStyle.css'
-const AchivCard = (props) => {
+import './TeamCardStyle.css'
+const TeamCard = (props) => {
     return (
-        <div className="Achivement-card">
+        <div className="Team-card">
         <div className='img-cont'>
-        <img  src={props.imgsrc} alt='Achivement' />
+        <img  src={props.imgsrc} alt='Team' />
         </div>
         <div className='team-details'>
            <center> <p className='team-name'>{props.text}</p></center>
@@ -14,4 +14,4 @@ const AchivCard = (props) => {
     )
 }
 
-export default AchivCard
+export default TeamCard

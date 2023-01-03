@@ -2,10 +2,11 @@
     margin: 0;
     color: #555555;
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
 
 }
 .work-container{
+    position: relative;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     /* border-top-left-radius: 20%;
@@ -15,11 +16,26 @@
     background:#efeae2;
     align-items: center;
 }
+.download-btn{
+    border: 5px solid gray;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1140px;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 1rem;
+
+}
+.event-btn{
+    width: 400px;
+    margin-right: 20px;
+
+}
 .project-container{
-    max-width: auto;
+    max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
    
@@ -30,6 +46,8 @@
     display: flex;
     flex-direction: column;
     background-color:#935345;
+    text-align: center;
+    
     /* padding: 1.2rem 1rem; */
     box-shadow: 0 10px 10px -5px;
 }
@@ -62,7 +80,7 @@
     
     display: flex;
     justify-content: space-between ;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem ;
 
 
 }
@@ -81,10 +99,19 @@
     background:#ffff;
     color: #2e5041;
 }
-@media screen  and (max-width:940px){
+@media screen  and (max-width:1100px){
     .project-container{
        
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
+       
+       
+    
+    }
+}
+@media screen  and (max-width:900px){
+    .project-container{
+       
+        grid-template-columns: repeat(2,1fr);
        
        
     
@@ -93,7 +120,7 @@
 @media screen  and (max-width:740px){
     .project-container{
          max-width: 90%;
-         max-width: auto;
+         
          margin: auto;
          grid-template-columns: 1fr;
     }
@@ -104,6 +131,18 @@
         border-bottom-left-radius: 0%;
         border-bottom-right-radius: 5%;
        
+    }
+    .download-btn{
+        height: auto;
+        margin-bottom: 20px;
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    
+    
+    }
+    .event-btn{
+        margin-bottom: 20px;
+        width: 100%;
     }
 }
 

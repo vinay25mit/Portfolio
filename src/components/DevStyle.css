@@ -9,8 +9,8 @@
 }
 
 .Devi-container {
-    border-top-left-radius: 20%;
-    border-top-right-radius: 30%;
+    /* border-top-left-radius: 20%;
+    border-top-right-radius: 30%; */
     margin: 0;
     background: #efeae2;
     text-align: center;
@@ -21,7 +21,7 @@
   
     padding-left: 15px;
     padding-right: 15px;
-    max-width: auto;
+    max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

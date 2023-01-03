@@ -1,18 +1,18 @@
 import React from 'react'
 
-import "./AchivCardStyle.css"
-import AchivCard from './AchivCard'
-import AchivData from './AchivData'
+import "./TeamCardStyle.css"
+import TeamCard from './TeamCard'
+import TeamData from './TeamData'
 
-const Achiv = () => {
+const Team = () => {
     return (
         <div className="Ach-container">
-            <h1 className="Achivement-heading">TEAM</h1>
-            <div className="Achivement-container">
+            <h1 className="Team-heading">TEAM</h1>
+            <div className="Team-container">
                 {
-                    AchivData.map((val,ind)=>{
+                    TeamData.map((val,ind)=>{
                         return(
-                            <AchivCard
+                            <TeamCard
                             key={ind}
                             imgsrc={val.imgsrc}
                             text={val.text}
@@ -26,5 +26,5 @@ const Achiv = () => {
     )
 }
 
-export default Achiv
+export default Team
 

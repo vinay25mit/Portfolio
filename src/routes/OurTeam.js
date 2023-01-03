@@ -3,15 +3,15 @@ import Footer from '../components/Footer'
 import HeroImg from '../components/HeroImg'
 import HeroImage from "../components/HeroImage"
 import Navbar from '../components/Navbar'
-import Achiv from '../components/Achiv'
+import Team from '../components/Team'
 import Dev from '../components/Dev'
 const OurTeam= () => {
   return (
     <div>
       <Navbar/>
       <HeroImage/>
-      {/* <HeroImg heading="Achivements" text="Some of My Achivements"/> */}
-      <Achiv/>
+      {/* <HeroImg heading="Teamements" text="Some of My Teamements"/> */}
+      <Team/>
       <Dev/>
       <Footer/>
     </div>

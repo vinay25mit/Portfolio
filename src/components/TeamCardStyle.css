@@ -1,8 +1,8 @@
-.Achivement-heading{
+.Team-heading{
     margin: 0;
     color: #555555;
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    padding: 2rem 0 1rem 0;
 
 }
 .Ach-container{
@@ -11,7 +11,7 @@
     text-align: center;
     align-items: center;
 }
-.Achivement-container{
+.Team-container{
    
     max-width: 1140px;
     margin: auto;
@@ -24,7 +24,7 @@
    
 
 }
-.Achivement-card{
+.Team-card{
     background: #839a9b;
     border-radius: 5%;
     /* padding: 1.2rem 1rem; */
@@ -39,7 +39,7 @@
     /* border: 3px solid red; */
     height: 250px;
 }
-.Achivement-card img{
+.Team-card img{
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     width: 100%;
@@ -75,13 +75,13 @@
 }
 
 @media screen  and (max-width:980px){
-    .Achivement-container{
+    .Team-container{
         grid-template-columns: repeat(3,1fr);
     }
 }
 
 @media screen  and (max-width:740px){
-    .Achivement-container{
+    .Team-container{
          max-width: 90%;
          max-width: auto;
          margin: auto;

@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutSec from '../components/AboutSec.js'
-import Achiv from '../components/Achiv.js'
+import Team from '../components/Team.js'
 // import Education from '../components/Education.js'
 import Footer from '../components/Footer.js'
 import HeroImage from '../components/HeroImage.js'
@@ -16,7 +16,7 @@ const Home = () => {
       <AboutSec/>
       {/* <Education/> */}
       <Work/>
-      <Achiv/>
+      <Team/>
       <Dev/>
       {/* <Skills/> */}
       <Footer/>
