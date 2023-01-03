@@ -20,31 +20,8 @@ const TeamData=[
     //     view:"url.com"
     // }
     // ,
-    { 
-        text:"LILY KUMARI",
-        
-        imgsrc:"https://i.imgur.com/RCqRhjW.jpg",
-        // imgsrc:"https://play-lh.googleusercontent.com/zaldniLc2XTBhNlCDR4hcD5bcRYHZ56_lO0yA2Qu-cADShy1_HDWrICSvv0EPTX79WY",
-        // text:"Secured 2561 Rank in Educational Codeforces Round 130 among 14k participants.",
-        view:"url.com"
-    }
-    ,
-    {
-        text:"RAHUL KUMAR",
-        imgsrc:"https://i.imgur.com/LEMKBjs.jpg",
-        // imgsrc:"https://play-lh.googleusercontent.com/zaldniLc2XTBhNlCDR4hcD5bcRYHZ56_lO0yA2Qu-cADShy1_HDWrICSvv0EPTX79WY",
-        // text:"Highest rating of 1254 at Codeforces.",
-        view:"url.com"
-    }
-    ,
-    {
-        text:"SANDEEP KR SINGH",
-        imgsrc:"https://i.imgur.com/6Y3ykO0.jpg",
-        // imgsrc:"https://repository-images.githubusercontent.com/180398813/a57fa200-b4bb-11e9-9a12-a53353dce24a",
-        // text:"Highest rating of 570 at Atcoder",
-        view:"url.com"
-    }
-    ,
+
+    
     {
         text:"PREM KUMAR",
         // imgsrc:"https://img.icons8.com/color/2x/codechef.png",
@@ -98,6 +75,30 @@ const TeamData=[
         view:"url.com"
     }
     ,
+    { 
+        text:"LILY KUMARI",
+        
+        imgsrc:"https://i.imgur.com/RCqRhjW.jpg",
+        // imgsrc:"https://play-lh.googleusercontent.com/zaldniLc2XTBhNlCDR4hcD5bcRYHZ56_lO0yA2Qu-cADShy1_HDWrICSvv0EPTX79WY",
+        // text:"Secured 2561 Rank in Educational Codeforces Round 130 among 14k participants.",
+        view:"url.com"
+    }
+    ,
+    {
+        text:"RAHUL KUMAR",
+        imgsrc:"https://i.imgur.com/LEMKBjs.jpg",
+        // imgsrc:"https://play-lh.googleusercontent.com/zaldniLc2XTBhNlCDR4hcD5bcRYHZ56_lO0yA2Qu-cADShy1_HDWrICSvv0EPTX79WY",
+        // text:"Highest rating of 1254 at Codeforces.",
+        view:"url.com"
+    }
+    ,
+    {
+        text:"SANDEEP KR SINGH",
+        imgsrc:"https://i.imgur.com/6Y3ykO0.jpg",
+        // imgsrc:"https://repository-images.githubusercontent.com/180398813/a57fa200-b4bb-11e9-9a12-a53353dce24a",
+        // text:"Highest rating of 570 at Atcoder",
+        view:"url.com"
+    }
  
 
 ];

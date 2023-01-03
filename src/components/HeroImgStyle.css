@@ -6,7 +6,7 @@
     
 }
 
-.hero-img::before {
+/* .hero-img::before {
     content:"";
     background:url("./Assest/footba.jpg");
     background-size: cover;
@@ -19,7 +19,7 @@
     top:0;
     left: 0;
     z-index: -10;
-}
+} */
 .img-sec{
     width: 100%;
     height: 100%;
@@ -39,7 +39,10 @@
      text-align: center;
      color: #839a9b;
 }
+.h2{
+    color: white;
 
+}
 @media screen  and (max-width:640px){
     .hero-img h1{
         font-size: 2rem;

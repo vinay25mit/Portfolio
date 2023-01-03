@@ -1,7 +1,7 @@
 import "./FooterStyle.css";
 
 import React from "react";
-import { FaGithub, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
+import { FaYoutube, FaFacebookSquare, FaMailBulk,FaInstagram} from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
@@ -63,24 +63,30 @@ const Footer = () => {
           ></iframe>
         </div>
         <div className="right">
-          <a href="https://www.linkedin.com/in/utkarshkr09/">
-            <FaLinkedinIn
+          <a href="https://www.facebook.com/mitmsports">
+            <FaFacebookSquare
               size={50}
-              style={{ color: "#2e5041", marginRight: "2rem" }}
+              style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
 
           <a href="mailto:sportsclubmit@mitmuzaffarpur.org">
             <FaMailBulk
               size={50}
-              style={{ color: "#2e5041", marginRight: "2rem" }}
+              style={{ color: "#efeae2", marginRight: "2rem" }}
+            />
+          </a>
+          <a href="https://www.instagram.com/mitsports_club/">
+            <FaInstagram
+              size={50}
+              style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
 
-          <a href="https://github.com/utkarshkr-creator/Some-Cool-CP-Problems">
-            <FaGithub
+          <a href="https://youtube.com/@sportsclubmitm">
+            <FaYoutube
               size={50}
-              style={{ color: "#2e5041", marginRight: "2rem" }}
+              style={{ color: "#efeae2", marginRight: "2rem" }}
             />
           </a>
     

@@ -8,8 +8,8 @@ const Gallery1= () => {
   return (
     <div>
       <Navbar/>
-      <HeroImage/>
-      {/* <HeroImg heading="Galleryements" text="Some of My Galleryements"/> */}
+      {/* <HeroImage/> */}
+      <HeroImg heading="GLIMPSE" />
       <Gallery/>
       <Footer/>
     </div>

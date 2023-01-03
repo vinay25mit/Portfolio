@@ -9,8 +9,8 @@ const OurTeam= () => {
   return (
     <div>
       <Navbar/>
-      <HeroImage/>
-      {/* <HeroImg heading="Teamements" text="Some of My Teamements"/> */}
+      {/* <HeroImage/> */}
+      <HeroImg heading="CORE TEAM"/>
       <Team/>
       <Dev/>
       <Footer/>

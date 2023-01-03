@@ -10,8 +10,8 @@ const Project = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <HeroImage/>
-      {/* <HeroImg heading="PROJECTS." text="Some of my Recent Work" /> */}
+      {/* <HeroImage/> */}
+      <HeroImg heading="EVENTS" text="REGISTER NOW"  />
       <Work/>
       <Footer/>
     </div>

@@ -49,9 +49,9 @@ const AchivData=[
     {
         imgsrc:"https://i.imgur.com/7U3RLjz.jpg",
     },
-    {
-        imgsrc:"https://i.imgur.com/OS1aUg6.jpg",
-    },
+    // {
+    //     imgsrc:"https://i.imgur.com/OS1aUg6.jpg",
+    // },
     {
         imgsrc:"https://i.imgur.com/WI2MUda.jpg",
     },

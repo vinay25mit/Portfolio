@@ -22,13 +22,17 @@
     grid-template-columns: repeat(3,1fr);
     max-width: 1140px;
     flex-direction: row;
-    height: 50px;
+    height: 70px;
+    margin-left:15% ;
     margin-bottom: 1rem;
 
 }
 .event-btn{
-    width: 400px;
-    margin-right: 20px;
+    width: 100%;
+    /* margin-right: 20px; */
+    margin-bottom: 5%;
+    /* margin-right: 15%; */
+    /* padding: 5%; */
 
 }
 .project-container{

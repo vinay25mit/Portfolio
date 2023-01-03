@@ -4,7 +4,7 @@ import './AboutStyle.css'
 function AboutSec() {
   return (
     <div className='about-cont'>
-      <h3 className='name'>WHAT WE ARE</h3>
+      {/* <h3 className='name'>WHAT WE ARE</h3> */}
       <h1 className='name'>ABOUT US</h1>
       <div className='detail-container'>
         <div className='about-sec'>

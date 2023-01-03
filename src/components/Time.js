@@ -20,7 +20,7 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
 };
 const Time = () => {
   return (
-    <Countdown date={'2023-01-10T00:00:00'} renderer={renderer}>
+    <Countdown date={'2023-01-14T00:00:00'} renderer={renderer}>
      <Completionist />
   </Countdown>
   )

@@ -16,8 +16,8 @@ const HeroImage = () => {
       <div className="mask">
         <BackgroundSlider
           images={[i1, i5, i3, i4, i6, i7]}
-          duration={5}
-          transition={2}
+          duration={3}
+          transition={1}
         />
         {/* <img className="into-img" src={i4} alt="IntroImg"/>     */}
       </div>
@@ -39,7 +39,7 @@ const HeroImage = () => {
         <Link to="/Project" className="btn">
           EVENTS
         </Link>
-        <h4>Registration Closed in</h4>
+        <h4>Registration Closes in</h4>
         <h1 ><Time/></h1>
         {/* <a className="btn" href="https://drive.google.com/file/d/1Wiuct2nbAYB2ywommXIY7l9sjOl9F7UD/view?usp=share_link">RULES</a> */}
         {/* <Link to="/Contact" className="btn btn-light">Contact</Link> */}

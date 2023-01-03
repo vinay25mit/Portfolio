@@ -8,8 +8,11 @@ function Work() {
   return (
     <div className="work-container">
       <h1 className="project-heading">EVENTS</h1>
-      <div className="download-btn">
-        <a
+      {/* <div className="download-btn"> */}
+
+      {/* </div> */}
+      <div className="project-container">
+      <a
           className="btn event-btn"
           href="https://drive.google.com/file/d/1Wiuct2nbAYB2ywommXIY7l9sjOl9F7UD/view?usp=share_link"
         >
@@ -29,9 +32,15 @@ function Work() {
         >
           DECLERATION
         </a>
-      </div>
-      <div className="project-container">
+        <a
+          href="https://drive.google.com/file/d/1AW2-Z94nFIWRnvIzfn1anPF6kh-cQzp4/view?usp=share_link
+"
+          className="btn event-btn"
+        >
+          RULEBOOK
+        </a>
         {WorkCardData.map((val, ind) => {
+
           return (
             <WorkCard
               key={ind}
