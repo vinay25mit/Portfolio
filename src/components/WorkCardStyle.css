@@ -6,13 +6,17 @@
 
 }
 .work-container{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    /* border-top-left-radius: 20%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 25%; */
     background:#efeae2;
     align-items: center;
 }
 .project-container{
-    max-width: 1140px;
+    max-width: auto;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -22,17 +26,19 @@
 
 }
 .project-card{
-    
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
     background-color:#935345;
-    padding: 1.2rem 1rem;
+    /* padding: 1.2rem 1rem; */
     box-shadow: 0 10px 10px -5px;
 }
 
 .project-card img{
-   
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     width: 100%;
+    /* height: 100%; */
     /* margin-bottom: auto; */
 }
 .project-title{
@@ -48,7 +54,7 @@
     text-align: justify;
 
 }
-.img_style{
+.event-img_style{
     width: 100%;
     height: 200px;
 }
@@ -56,7 +62,7 @@
     
     display: flex;
     justify-content: space-between ;
-    padding: 0.5rem 0;
+    padding: 0.5rem 1.5rem;
 
 
 }
@@ -86,6 +92,14 @@
          max-width: auto;
          margin: auto;
          grid-template-columns: 1fr;
+    }
+    .work-container{
+       
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 5%;
+       
     }
 }
 

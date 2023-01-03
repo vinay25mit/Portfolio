@@ -26,7 +26,8 @@
 }
 .Achivement-card{
     background: #839a9b;
-    padding: 1.2rem 1rem;
+    border-radius: 5%;
+    /* padding: 1.2rem 1rem; */
     /* display: flex; */
     box-shadow: 10px 10px 10px -5px #333;
 }
@@ -39,19 +40,30 @@
     height: 250px;
 }
 .Achivement-card img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     width: 100%;
     height: 100%;
     /* border-radius: 50%; */
     /* border: 2px solid blue; */
 }
 
-.pro-details p{
+/* .pro-details p{
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 1.1rem;
     color: white;
     text-align: center;
 
+} */
+.team-details{
+    display: flex;
+   width: 100%;
+   margin: 0;
+   padding-top: 1rem;
+   justify-content: center;
+   /* align-items: center; */
+  
 }
 .pro-btns{
     display: flex;
@@ -61,9 +73,7 @@
 .pro-btns .btn{
      padding: 0.5rem 1rem;
 }
-.name{
-    justify-content: center;
-}
+
 @media screen  and (max-width:980px){
     .Achivement-container{
         grid-template-columns: repeat(3,1fr);

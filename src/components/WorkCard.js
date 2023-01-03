@@ -4,7 +4,7 @@ import "./WorkCardStyle.css"
 function WorkCard(props) {
     return (
         <div className="project-card">
-        <img className='img_style' src={props.imgsrc} alt='project' />
+        <img className='event-img_style' src={props.imgsrc} alt='game' />
         <h2 className='project-title'>{props.title}</h2>
         <div className='pro-details'>
             {/* <p>{props.text}</p> */}

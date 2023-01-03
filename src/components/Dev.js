@@ -16,7 +16,7 @@ const Dev = () => {
                             key={ind}
                             imgsrc={val.imgsrc}
                             text={val.text}
-                            view={val.view}
+                             pink={val.pink}
                             />
                         )
                     })
